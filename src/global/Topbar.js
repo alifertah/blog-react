@@ -1,9 +1,9 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 function Topbar() {
   return (
     <div>
-        <span><a href="#">Home </a>| Ali Fertah | 1337 student</span>
+        <span><Link to="/">Home </Link>| Ali Fertah | 1337 student</span>
     </div>
   )
 }

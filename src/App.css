@@ -44,8 +44,45 @@ span a{
 .footer{
   display: flex;
   justify-content: space-between;
+  padding-top: 5px;
+  border-top: 0.031rem solid;
+  border-image: linear-gradient(20deg, #ddd, rgb(37, 42, 52)) 1;
   align-items: center;
+  color: rgb(170, 177, 181);
 }
 .social-media a {
   color: #2D9DFF;
+  margin: 0 0 0 7px;
+}
+.title{
+  color: #D0D0D0;
+  border-bottom: 2px dashed #ddd;
+  font-size: 50px;
+}
+img{
+  width: 100%;
+}
+.another-title{
+  color: #D0D0D0;
+  font-size: 36px;
+}
+.paragraph{
+  color: #D0D0D0;
+  font-size: 20px;
+}
+.author{
+  color: #D0D0D0;
+  font-size: 18px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D0D0D0;
+}
+.info{
+color: #D0D0D0;
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.informations{
+  padding-bottom: 20px;
 }
