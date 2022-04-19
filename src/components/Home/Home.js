@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
         <ul>
-            <li><Link to="/post/athman">1337</Link><span>07 Apr 2022</span></li>
+            <li><Link to="/post/1337">1337</Link><span>07 Apr 2022</span></li>
         </ul>
     </div>
   )
