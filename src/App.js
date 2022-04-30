@@ -6,6 +6,7 @@ import Topbar from 'global/Topbar';
 import Footer from 'global/Footer';
 import ReactMarkdown from "react-markdown";
 import Login from 'components/Login/Login';
+import Signin from 'components/Signin/Signin';
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/post/:id" element={<Post />} />
-
-          <Route path="/Login" element={<Login />} />
+          <Route path="/Login" element={<Login />} />  
+          <Route path='/Signin' element={<Signin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
