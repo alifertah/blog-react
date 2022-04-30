@@ -146,3 +146,13 @@ justify-content: space-between;
   /* text-decoration: none; */
   color: #D0D0D0;
 }
+
+.Signin-com{
+  color: #D0D0D0;
+}
+
+.Signin-com h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
