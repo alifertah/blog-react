@@ -12,7 +12,7 @@ function Signin() {
         <input type="text" placeholder="phone number" />
           <input type="password" placeholder="password" />
           <input type="password" placeholder="confirm password" />
-          <button>login</button>
+          <button>Sign in</button>
           <p class="message">
           You already have an account? <Link to="/Login">Log in</Link>
           </p>
