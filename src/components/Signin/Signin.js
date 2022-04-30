@@ -14,7 +14,7 @@ function Signin() {
           <input type="password" placeholder="confirm password" />
           <button>login</button>
           <p class="message">
-            Not registered? <Link to="/Signin">Create an account</Link>
+          You already have an account? <Link to="/Login">Log in</Link>
           </p>
         </form>
       </div>
