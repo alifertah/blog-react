@@ -16,6 +16,8 @@ function Post() {
     .then((text) => setContent(text))
   }, [])
 
+  const [comment, setComment] = useState("");
+
   return (
     <div>
       <h1 className="title">1337</h1>
@@ -34,6 +36,9 @@ function Post() {
           <p className="info">
             <AiOutlineCalendar /> <span> 24 Mar 2022</span>
           </p>
+          <input type="text" id="comment" />
+          <button className="comment-button" onClick={() => setComment(document.getElementById("comment").value)}>Comment</button>
+          <p className="comment"> {comment} </p>
         </div>
       </div>
     </div>

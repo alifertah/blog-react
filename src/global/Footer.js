@@ -10,9 +10,9 @@ function Footer() {
           2022 © Ali Fertah  
         </div>
         <div className="social-media">
-            <a href="#"><FiGithub /></a>
+            <a href="https://github.com/alifertah"><FiGithub /></a>
             <a href="#"><FiTwitter /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href=""><FaInstagram /></a>
         </div>
     </div>
   )

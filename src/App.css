@@ -89,70 +89,24 @@ justify-content: space-between;
 .text-md{
   color: #D0D0D0;
 }
-.Login{
-  float: right;
-}
-.Login-com{
+
+
+.comment{
   color: #D0D0D0;
 }
-.Login-com h1{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-/* Form styiling */
-.form {
-  position: relative;
-  z-index: 1;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-}
-.form input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-.form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #374052;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+.comment-button{
+  background-color: #374052;
+  border: none;
+  padding: 5px 15px;
+  color: #D0D0D0;
+  margin-left: 10px;
   cursor: pointer;
 }
-.form button:hover,.form button:active,.form button:focus {
-  background: #495875;
-  transition: 0.5s;
-}
-.form p{
-  color: #D0D0D0;
-}
-.form p a{
-  /* text-decoration: none; */
-  color: #D0D0D0;
+.comment-button button :hover{
+  background-color:#495875; ;
 }
 
-.Signin-com{
-  color: #D0D0D0;
-}
-
-.Signin-com h1{
-  width: 100%;
-  display: flex;
-  justify-content: center;
+#comment{
+  outline: none;
+  padding: 5px 15px;
 }
