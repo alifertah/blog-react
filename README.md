@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# I made this project to learn react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Im gonna set it's back-end with expressjs(to learn it 2)
 
 ## Available Scripts
 
