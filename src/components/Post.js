@@ -2,9 +2,6 @@ import pic from "assets/1337.jpeg";
 import { BsTag } from "react-icons/bs";
 import { AiOutlineFileText } from "react-icons/ai";
 import { AiOutlineCalendar } from "react-icons/ai";
-import ReactMarkdown from "react-markdown";
-
-import ReactDom from 'react-dom'
 import { useEffect, useState } from "react";
 
 function Post() {
@@ -24,7 +21,7 @@ function Post() {
       <div className="article">
         <h2 className="another-title">1337</h2>
         <img src={pic} />
-        <ReactMarkdown className="text-md" children={content} />
+        {/* <ReactMarkdown className="text-md" children={content} /> */}
         <p className="author">By : Ali Fertah</p>
         <div className="informations">
           <p className="info">
@@ -37,7 +34,7 @@ function Post() {
             <AiOutlineCalendar /> <span> 24 Mar 2022</span>
           </p>
           <input type="text" id="comment" />
-          <button className="comment-button" onClick={() => setComment(document.getElementById("comment").value)}>Comment</button>
+          <button className="comment-button" onClick={() => setComment(document.getElementById("comment").value, document.getElementById("comment").value = "")}>Comment</button>
           <p className="comment"> {comment} </p>
         </div>
       </div>
