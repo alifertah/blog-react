@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+
+body{
+  margin: 0 auto;
+  background-color:#252a34;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.App{
+  width: 800px;
+  margin: 0 auto;
+}
+ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  display: block;
+}
+ul a{
+  color: #2D9DFF;
+  margin: 0 50px 0 0 ;
+}
+ul span{
+  color: #D0D0D0;
+}
+ul li{
+  border-bottom: 1px dashed #BBB;
+  padding: 10px 15px;
+}
+
+span{
+  width: 100%;
+  margin: 0 auto;
+  color: rgb(170, 177, 181);
+  font-size: 15px;
+}
+span a{
+  text-decoration: none;
+  color: rgb(170, 177, 181);
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  border-top: 0.031rem solid;
+  border-image: linear-gradient(20deg, #ddd, rgb(37, 42, 52)) 1;
+  align-items: center;
+  color: rgb(170, 177, 181);
+}
+.social-media a {
+  color: #2D9DFF;
+  margin: 0 0 0 7px;
+}
+.title{
+  color: #D0D0D0;
+  border-bottom: 2px dashed #ddd;
+  font-size: 50px;
+}
+img{
+  width: 100%;
+}
+.another-title{
+  color: #D0D0D0;
+  font-size: 36px;
+}
+.paragraph{
+  color: #D0D0D0;
+  font-size: 20px;
+}
+.author{
+  color: #D0D0D0;
+  font-size: 18px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D0D0D0;
+}
+.info{
+color: #D0D0D0;
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.informations{
+  padding-bottom: 20px;
+}
+
+.text-md{
+  color: #D0D0D0;
+}
+
+
+.comment{
+  color: #D0D0D0;
+}
+.comment-button{
+  background-color: #374052;
+  border: none;
+  padding: 5px 15px;
+  color: #D0D0D0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.comment-button button :hover{
+  background-color:#495875; ;
+}
+
+#comment{
+  outline: none;
+  padding: 5px 15px;
+}
